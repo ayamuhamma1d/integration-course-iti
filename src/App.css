@@ -96,6 +96,7 @@ button:hover {
 .addTask input {
   flex: 1;
   outline: none;
+  color:white;
   padding: 0.8rem 0.6rem;
   border: 1px solid #e1c78f;
   background: none;
@@ -119,6 +120,9 @@ button:hover {
   overflow-x: hidden;
   padding: 0 20px;
   position: relative;
+}
+.d-none{
+  display: none;
 }
 @media (max-height: 800px) {
   .lists {
@@ -231,7 +235,7 @@ button:hover {
 }
 .search input {
   flex: 1;
-
+  color:#fff;
   outline: none;
   padding: 0.8rem 0.6rem;
   border: 1px solid #e1c78f;
